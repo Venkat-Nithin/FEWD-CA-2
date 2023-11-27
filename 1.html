@@ -496,7 +496,6 @@ for (var i = 0; i < ship.lasers.length; i++) {
         ctx.lineWidth = SHIP_SIZE / 30;
         ctx.beginPath();
 
-        // Change bullet shape to a laser-like line
         ctx.moveTo(ship.lasers[i].x, ship.lasers[i].y);
         ctx.lineTo(
             ship.lasers[i].x - ship.lasers[i].xv * 3,
